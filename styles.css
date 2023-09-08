@@ -7,7 +7,7 @@ div{
 }
 header{
     background: white;
-    padding: 10px;
+    display: flex;
 }
 header h1{
     margin: 0;
@@ -16,17 +16,40 @@ div.post{
     background: white;
     margin-top: 10px;
 }
+
 div.post img{
     width: 100%;
 }
-div.post .post-header
+
+div.post .post-header{
     display: inline-block;
-    width: 80%;
+    width: 80;
+}
+.post-header{
+    font-family: Roboto;
+    display: flex;
+}
+.menu {
+    text-align: end;
 }
 
-div.post h2, div.post p{
+.post-icons {
+    margin: 10px;
+    display: inline-block;
     padding: 10px;
-    margin:0;
+}
+.bookmark{
+    text-align: end;
+
+}
+.post-body, .lorem{
+    font-family: Roboto;
+    margin: 10px;
+}
+
+div.post, p{
+    padding: 10px;
+    margin: 0;
 }
 div.container{
     width: 600px;

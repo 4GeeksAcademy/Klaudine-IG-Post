@@ -1,33 +1,56 @@
+body{
+    background-color: black;
+    margin: 5%;
+}
 .post {
-    margin: 10px;
+    width: 600px;
+    margin: auto;
+    background-color: white;
 }
 .post-header{
     display:  flex;
+    align-items: center;
+    
 }
 .html-icon{
-    padding: 2px;
+    padding: 5px;
+    border: 5px;
 }
 .name-html{
     padding: 2px;
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.ellipses{
+   margin: 0 0 0 75%;
 }
 .post-img{
-    border: solid;
+    width: 100%;
 }
 .post-body{
-    
+    margin: auto;
+
 }
 .post-icons{
     display:flex;
+    padding: 10px;
+    padding-bottom: 5px;
+    border: 10px;
 }
 .heart{
-
+padding: 4px;
 }
 .comment{
-
+padding: 4px;
 }
 .plane{
-
+padding: 4px;
 }
 .bookmark{
-
+    margin: 0 0 0 74%;
+}
+p{
+    margin: 5px;
+    font-family: roboto;
+    padding: 5px;
 }
